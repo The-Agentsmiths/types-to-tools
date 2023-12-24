@@ -6,8 +6,6 @@ a cli that reads your python files and generates a tool array for your openai as
 
 ## Example
 
-![example](https://github.com/bramses/typer-to-tools/assets/3282661/3c43c8f9-c992-4eb1-bb8e-2fd6e554c35e)
-
 ```
 (typer-to-tools-py3.9) (base) bram@Brams-Macbook typer-to-tools % python main.py
 [?] Select a file: test.py
