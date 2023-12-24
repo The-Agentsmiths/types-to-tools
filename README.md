@@ -30,6 +30,9 @@ Description for parameter 'username': your login id
 Is the param 'username' required? [y/N]: y
 Description for parameter 'email': your email addr
 Is the param 'email' required? [y/N]: n
+```
+
+```json
 [
   {
     "type": "function",
