@@ -7,7 +7,7 @@ a cli that reads your python files and generates a tool array for your openai as
 ## Example
 
 ```
-(typer-to-tools-py3.9) (base) bram@Brams-Macbook typer-to-tools % python main.py
+$ python main.py
 [?] Select a file: test.py
  > test.py
    main.py
@@ -29,6 +29,8 @@ Is the param 'username' required? [y/N]: y
 Description for parameter 'email': your email addr
 Is the param 'email' required? [y/N]: n
 ```
+
+results in:
 
 ```json
 [
