@@ -108,3 +108,9 @@ Is the param 'email' required? [y/N]: n
   }
 ]
 ```
+
+
+## In the OpenAI Assistants Playground
+
+![Screenshot 2023-12-24 18-45-55](https://github.com/The-Agentsmiths/typer-to-tools/assets/3282661/487606b6-6be3-4a2d-865e-66324c96e951)
+
