@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "typer-to-tools"
+version = "0.1.0"
+description = ""
+authors = ["Bram Adams <3282661+bramses@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "typer_to_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.9.0"
+inquirer = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
