@@ -39,7 +39,7 @@ def main():
         for param in inspect.signature(func[1]).parameters.values():
             param_name = param.name
             # if annotation is _empty, then it is not annotated, and use str as default
-            param_type = param.annotation if param.annotation != inspect._empty else "str"
+            param_type = param.annotation if param.annotation != inspect._empty else "string"
             param_desc = typer.prompt(f"Description for parameter '{param_name}'", type=str)
             is_required = typer.confirm(f"Is the param '{param_name}' required?", default=False)
             
