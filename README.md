@@ -4,7 +4,7 @@
 a cli that reads your python files and generates a tool array for your openai assistants
 
 
-## Example
+## Example (look at the function implementations in [./test.py](./test.py) if you're curious)
 
 ```
 $ python main.py
